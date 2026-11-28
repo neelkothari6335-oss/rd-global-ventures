@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
+:root{--navy:#101b2b;--gold:#c6a66b;--ink:#20252c;--muted:#69717b;--ivory:#f8f7f3;--line:#e7e3da}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:'DM Sans',sans-serif;color:var(--ink);background:var(--ivory);line-height:1.65}a{color:inherit;text-decoration:none}.container{width:min(1160px,calc(100% - 44px));margin:auto}.topline{background:#091421;color:#d9d5cd;font-size:11px;padding:8px 0;letter-spacing:.1em}.topline .container{display:flex;justify-content:space-between}.header{position:sticky;top:0;z-index:10;background:#101b2bf7;border-bottom:1px solid #ffffff20}.nav{min-height:78px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:12px;color:white}.brand-mark{width:42px;height:42px;border:1px solid var(--gold);display:grid;place-items:center;color:var(--gold);font:22px 'Playfair Display'}.brand strong{display:block;letter-spacing:.14em;font-size:13px}.brand small{display:block;color:#c9c4b9;font-size:9px;letter-spacing:.16em}.navlinks{display:flex;gap:17px;align-items:center;color:#eee;font-size:11px}.navlinks a:hover{color:var(--gold)}.nav-cta,.btn{display:inline-block;padding:13px 19px;background:var(--gold);color:#111b27;font-size:11px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;border:1px solid var(--gold);cursor:pointer}.btn:hover,.nav-cta:hover{background:transparent;color:var(--gold)}.menu-btn{display:none;background:none;border:1px solid #647080;color:white;padding:9px}.hero,.page-hero{background:linear-gradient(90deg,#091421f2,#091421b8),url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1900&q=85') center/cover;color:white}.hero{min-height:630px;display:flex;align-items:center}.hero-inner{max-width:780px;padding:90px 0}.eyebrow{color:var(--gold);text-transform:uppercase;letter-spacing:.2em;font-size:11px;font-weight:700}.hero h1,.page-hero h1{font:600 clamp(40px,6vw,74px)/1.08 'Playfair Display',serif;margin:18px 0}.hero p,.page-hero p{max-width:680px;color:#d6dbe0;font-size:16px}.hero-actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:28px}.outline{background:transparent;color:white;border-color:#ffffff70}.page-hero{padding:95px 0 80px}.page-hero h1{font-size:clamp(38px,5vw,62px)}.breadcrumbs{font-size:10px;color:#d0b783;letter-spacing:.13em;text-transform:uppercase}.section,.page-content{padding:82px 0}.section.dark{background:var(--navy);color:white}.section-head{max-width:700px;margin-bottom:38px}.section h2,.page-content h2{font:600 clamp(30px,4vw,46px)/1.15 'Playfair Display',serif;margin:12px 0 16px}.section-head p,.lead{color:var(--muted)}.dark .section-head p{color:#c0c7cf}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.grid.two{grid-template-columns:repeat(2,1fr)}.card{background:white;border:1px solid var(--line);padding:26px;transition:.2s}.card:hover{transform:translateY(-4px);box-shadow:0 15px 35px #14203012}.card h3{font:600 21px 'Playfair Display';margin:10px 0}.card p,.page-content p{color:var(--muted);font-size:14px}.num{color:var(--gold);font:26px 'Playfair Display'}.more{color:#987843;font-size:11px;text-transform:uppercase;letter-spacing:.1em;font-weight:700}.split{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}.visual{min-height:360px;background:url('https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=85') center/cover}.statrow{display:flex;gap:25px;margin-top:28px}.stat{border-left:2px solid var(--gold);padding-left:13px}.stat strong{display:block;color:#a98a54;font:26px 'Playfair Display'}.stat span{font-size:11px;color:var(--muted)}.cta-band{background:#172638;color:white;padding:55px 0}.cta-band .container{display:flex;align-items:center;justify-content:space-between;gap:20px}.cta-band h2{font:36px 'Playfair Display';margin:0}.cta-band p{color:#c5cbd2}.form{display:grid;grid-template-columns:1fr 1fr;gap:15px}.field{display:flex;flex-direction:column;gap:6px}.field.full{grid-column:1/-1}.field label{font-size:10px;letter-spacing:.08em;text-transform:uppercase;font-weight:700}.field input,.field select,.field textarea{padding:13px;border:1px solid #d9d6cf;background:white;font:14px 'DM Sans'}.field textarea{min-height:120px}.form-note,.notice{font-size:12px;color:var(--muted)}.notice{background:#efede6;border-left:3px solid var(--gold);padding:17px}.list{padding-left:20px;color:var(--muted);font-size:13px}.list li{margin:7px 0}.footer{background:#091421;color:#d4d8dc;padding:58px 0 22px}.footer-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:30px}.footer h4{color:var(--gold);font-size:10px;letter-spacing:.15em;text-transform:uppercase}.footer p,.footer a{font-size:12px;color:#aeb7c1}.footer a{display:block;margin:7px 0}.footer a:hover{color:var(--gold)}.copyright{border-top:1px solid #283544;margin-top:35px;padding-top:18px;font-size:10px;color:#929eaa;display:flex;justify-content:space-between}.whatsapp{position:fixed;right:20px;bottom:20px;z-index:30;width:56px;height:56px;border-radius:50%;display:grid;place-items:center;background:#20c76a;color:white;font-size:26px;box-shadow:0 8px 25px #0003}.property img{width:100%;height:190px;object-fit:cover}
+@media(max-width:980px){.navlinks{gap:9px;font-size:10px}.nav-cta{display:none}.grid{grid-template-columns:repeat(2,1fr)}.footer-grid{grid-template-columns:1fr 1fr}}@media(max-width:700px){.topline .container{justify-content:center}.topline span+span{display:none}.menu-btn{display:block}.navlinks{display:none;position:absolute;top:70px;left:0;right:0;background:#101b2b;padding:20px;flex-direction:column;align-items:flex-start}.navlinks.open{display:flex}.hero{min-height:560px}.section,.page-content{padding:58px 0}.grid,.grid.two,.split,.form,.footer-grid{grid-template-columns:1fr}.split{gap:28px}.visual{min-height:260px}.field.full{grid-column:auto}.cta-band .container{display:block}.cta-band .btn{margin-top:15px}.copyright{display:block}.copyright span{display:block;margin:8px 0}}
+
+/* Official RD Global Ventures logo */
+.brand{display:flex;align-items:center;gap:0;background:#fff;padding:4px 8px;border-radius:2px;flex:0 0 auto}.brand-logo{display:block;width:268px;height:66px;object-fit:contain}.footer .brand{width:max-content;max-width:100%}.footer .brand-logo{width:250px;height:62px}
+@media(max-width:700px){.brand-logo{width:205px;height:54px}.footer .brand-logo{width:220px;height:58px}}
+
+/* Supplied Dholera SIR rendering and WhatsApp icon */
+.dholera-image-wrap{min-height:360px;overflow:hidden;border-radius:3px;background:#e8e5dc}
+.dholera-feature-image{display:block;width:100%;height:100%;min-height:360px;object-fit:cover}
+.dholera-visual{background-image:url('dholera-banner.jpg')!important;background-position:center;background-size:cover}
+.whatsapp img{display:block;width:29px;height:29px}
+
+/* LinkedIn company page footer link */
+.footer .linkedin-link{display:inline-flex;align-items:center;gap:9px;width:max-content}
+.footer .linkedin-link img{display:inline-block;width:19px;height:19px;flex:0 0 19px}
+.footer .linkedin-link:hover{color:#d4af37}
+
+/* Instagram company page footer link */
+.footer .instagram-link{display:inline-flex;align-items:center;gap:9px;width:max-content}
+.footer .instagram-link img{display:inline-block;width:19px;height:19px;flex:0 0 19px}
+.footer .instagram-link:hover{color:var(--gold)}
+
+/* Refined footer spacing and alignment */
+.footer {
+    padding: 42px 0 18px;
+}
+
+.footer .social-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: max-content;
+    margin: 10px 0;
+    line-height: 1.4;
+}
+
+.footer .social-link img {
+    display: block;
+    width: 19px;
+    height: 19px;
+    flex: 0 0 19px;
+}
+
+.footer .copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px 24px;
+    margin-top: 25px;
+    padding-top: 14px;
+}
+
+.footer .copyright span:last-child {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.footer .copyright a {
+    display: inline-block;
+    margin: 0;
+    line-height: 1.5;
+}
+
+/* Mobile footer alignment */
+@media (max-width: 700px) {
+    .footer {
+        padding: 35px 0 16px;
+    }
+
+    .footer .copyright {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .footer .copyright span {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 8px;
+        margin: 0;
+    }
+}
+/* Keep copyright symbol and text on one line */
+.footer .copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px 20px;
+}
+
+.footer .copyright span:first-child {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    white-space: nowrap;
+    flex-wrap: nowrap;
+}
+
+.footer .copyright span:first-child * {
+    white-space: nowrap;
+}
+
+@media (max-width: 700px) {
+    .footer .copyright {
+        align-items: flex-start;
+    }
+
+    .footer .copyright span:first-child {
+        white-space: nowrap;
+    }
+}
+
+/* =========================================
+   RD GLOBAL VENTURES - TYPOGRAPHY SYSTEM
+   ========================================= */
+
+:root {
+  --font-heading: 'Manrope', sans-serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+/* Main website typography */
+html,
+body {
+  font-family: var(--font-body);
+  font-weight: 400;
+  line-height: 1.7;
+  letter-spacing: -0.01em;
+}
+
+/* All headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+  letter-spacing: -0.035em;
+  line-height: 1.2;
+  font-weight: 700;
+  color: inherit;
+}
+
+/* Main page headings */
+h1 {
+  font-weight: 800;
+  letter-spacing: -0.045em;
+  line-height: 1.12;
+}
+
+/* Section headings */
+h2 {
+  font-weight: 700;
+  letter-spacing: -0.035em;
+}
+
+/* Subheadings */
+h3,
+h4 {
+  font-weight: 650;
+}
+
+/* Navigation */
+nav,
+nav a,
+header a {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  letter-spacing: -0.015em;
+}
+
+/* Buttons and CTA elements */
+button,
+.btn,
+.button,
+a.cta,
+input[type="submit"] {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+/* Paragraphs and descriptions */
+p,
+li,
+label,
+input,
+textarea,
+select {
+  font-family: var(--font-body);
+}
+
+/* Service cards and content blocks */
+.card,
+.service-card {
+  font-family: var(--font-body);
+}
+
+.card h3,
+.service-card h3 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+}
+
+/* Footer typography */
+footer {
+  font-family: var(--font-body);
+}
+
+footer h3,
+footer h4 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+}
+
+/* ==========================================
+   RD GLOBAL VENTURES - FINAL FONT OVERRIDE
+   ========================================== */
+
+/* Force consistent font across all headings */
+h1, h2, h3, h4, h5, h6,
+h1 span, h2 span, h3 span,
+.hero h1,
+.hero h1 span,
+.hero-content h1,
+.hero-content h1 span,
+.hero-title,
+.hero-title span {
+    font-family: 'Manrope', sans-serif !important;
+    font-style: normal !important;
+    text-transform: none;
+}
+
+/* Homepage main headline */
+h1 {
+    font-family: 'Manrope', sans-serif !important;
+    font-size: clamp(36px, 5vw, 64px);
+    font-weight: 800 !important;
+    line-height: 1.15 !important;
+    letter-spacing: -0.045em !important;
+}
+
+/* Prevent individual words from using different fonts */
+h1 *,
+h1 span *,
+.hero-title *,
+.hero-content h1 * {
+    font-family: 'Manrope', sans-serif !important;
+    font-style: normal !important;
+    font-weight: 800 !important;
+    letter-spacing: inherit !important;
+}
+
+/* Consistent typography throughout other sections */
+h2, h3, h4, h5, h6 {
+    font-family: 'Manrope', sans-serif !important;
+    font-weight: 700 !important;
+    letter-spacing: -0.03em;
+}
+
+/* Consistent body typography */
+body, p, li, a, label, input, textarea {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Remove decorative font inconsistencies */
+.hero h1 em,
+.hero h1 i,
+.hero-content h1 em,
+.hero-content h1 i {
+    font-family: 'Manrope', sans-serif !important;
+    font-style: normal !important;
+}
